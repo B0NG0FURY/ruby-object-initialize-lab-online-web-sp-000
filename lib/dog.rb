@@ -1,6 +1,6 @@
 class Dog
   def initialize(name, breed)
-    if breed == ""
+    if breed == nil
       @breed = "Mutt"
     else
       @breed = breed
